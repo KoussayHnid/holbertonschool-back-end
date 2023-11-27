@@ -7,11 +7,11 @@ from sys import argv
 
 if __name__ == '_main_':
     user_page = requests.get(
-            "https://jsonplaceholder.typicode.com/users/{}".
-            format(argv[1])).json()
+        "https://jsonplaceholder.typicode.com/users/{}".
+        format(argv[1])).json()
     todo_page = requests.get(
-            "https://jsonplaceholder.typicode.com/todos?userId={}".
-            format(argv[1])).json()
+        "https://jsonplaceholder.typicode.com/todos?userId={}".
+        format(argv[1])).json()
     username = user_page.get("username")
     user_id = argv[1]
 
