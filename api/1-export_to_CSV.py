@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """Extends the 0-gather_data_from_an_API to export data in CSV format"""
 
 import csv
