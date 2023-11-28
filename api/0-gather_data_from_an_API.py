@@ -43,5 +43,5 @@ def inf_empleados():
         print("status error")
 
 
-if __name__ == '_main_':
+if __name__ == '__main__':
     inf_empleados()
