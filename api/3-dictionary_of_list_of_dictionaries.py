@@ -4,7 +4,7 @@
 import json
 import requests
 
-if __name__ == '_main_':
+if __name__ == '__main__':
     users_page = requests.get(
         "https://jsonplaceholder.typicode.com/users").json()
     todo_page = requests.get(
